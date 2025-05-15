@@ -1,0 +1,273 @@
+
+body {
+    text-align: center;
+    font-size:xx-large;
+    background-color: rgb(0, 0, 0);
+    color: #ff5200;
+  }
+  nav { 
+color: orange;
+font-size:xx-large;
+  }
+div{
+ color: #ff5200;
+}
+  h1 {
+    text-align: center;
+    color: red;
+  }
+  
+  h2 {
+    color: blue;
+    font-size: 20px;
+  }
+  input {
+    font-size: 20px;
+  }
+  button {
+    background: #ff5200;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    border-radius:5px;
+    border-color: #ff5200;
+  }
+  button:hover {
+    background: black;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    border-style: solid;
+    border-color: red;
+  }
+  
+  p {
+    text-align: center;
+    color: rgb(0, 255, 42);
+  }
+  
+  a {
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(16, 139, 0);
+  }
+  
+  a:active {
+    color: red;
+  }
+  
+  
+  #likes {
+    text-align: center;
+    color: aqua;
+    font-size: x-xx-large;
+  }
+  
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1ft);
+    gap: 20px;
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+
+  .grid-1 {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgba(0, 238, 255, 0.8);
+    transition: background-color 0.3s ease;
+  }
+  
+  .grid-1:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+  
+  
+  .grid-1 h2 {
+    font-size: xx-large;
+    color: rgb(140, 0, 255);
+  }
+  
+  .grid-1 p {
+    font-size:xx-large;
+    color: black;
+  }
+  .grid-2 {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgba(0, 255, 21, 0.8);
+    transition: background-color 0.3s ease;
+  }
+  
+  .grid-2:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+  
+ 
+  .grid-2 h2 {
+    font-size: xx-large;
+    color: rgb(0, 255, 255);
+  }
+  
+  .grid-2 p {
+    font-size:xx-large;
+    color: black;
+  }
+  .grid-3 {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgba(255, 238, 0, 0.8);
+    transition: background-color 0.3s ease;
+  }
+  
+  .grid-3:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+  
+  
+  .grid-3 h2 {
+    font-size: xx-large;
+    color: rgb(255, 0, 234);
+  }
+  
+  .grid-3 p {
+    font-size:xx-large;
+    color: black;
+  }
+  .grid-4 {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgba(0, 60, 255, 0.8);
+    transition: background-color 0.3s ease;
+  }
+  
+  .grid-4:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+  
+  
+  .grid-4 h2 {
+    font-size: xx-large;
+    color: rgb(255, 0, 0);
+  }
+  
+  .grid-4 p {
+    font-size:xx-large;
+    color: rgb(0, 255, 234);
+  }
+  
+  .grid-5 {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgba(0, 238, 255, 0.8);
+    transition: background-color 0.3s ease;
+  }
+  
+  .grid-5:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+  
+  
+  .grid-5 h2 {
+    font-size: xx-large;
+    color: rgb(140, 0, 255);
+  }
+  
+  .grid-5 p {
+    font-size:xx-large;
+    color: black;
+  }
+  .grid-6 {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgba(0, 238, 255, 0.8);
+    transition: background-color 0.3s ease;
+  }
+  
+  .grid-6:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+  
+  
+  .grid-6 h2 {
+    font-size: xx-large;
+    color: rgb(140, 0, 255);
+  }
+  
+  .grid-6 p {
+    font-size:xx-large;
+    color: black;
+  }
+  .grid-7 {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgba(0, 238, 255, 0.8);
+    transition: background-color 0.3s ease;
+  }
+  
+  .grid-7:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+  
+  
+  .grid-7 h2 {
+    font-size: xx-large;
+    color: rgb(140, 0, 255);
+  }
+  
+  .grid-7 p {
+    font-size:xx-large;
+    color: black;
+  }
+  .grid-8 {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgba(0, 238, 255, 0.8);
+    transition: background-color 0.3s ease;
+  }
+  
+  .grid-8:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+  
+  
+  .grid-8 h2 {
+    font-size: xx-large;
+    color: rgb(140, 0, 255);
+  }
+  
+  .grid-8 p {
+    font-size:xx-large;
+    color: black;
+  }
+  .grid-9 {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: background-color 0.3s ease;
+  }
+  
+  .grid-9:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+  
+  
+  .grid-9 h2 {
+    font-size: xx-large;
+    color: rgb(140, 0, 255);
+  }
+  
+  .grid-9 p {
+    font-size:xx-large;
+    color: black;
+  }

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ecu Hello World Assignment</title>
+  <link rel="stylesheet" type="text/css" href="aboutme_styles.css">
+  <script type="text/javascript" src="aboutme_JS.js"></script>
+</head>
+
+<body>
+  <p style="color: orange;">Last edited 3/29/2025 7:08pm</p>
+
+  <img src="https://www.ecok.edu/themes/ecu/img/logo-big.png" alt="ECU Logo">
+  <a href="https://www.ecok.edu">Ecu Home Page</a>
+
+  <nav>
+    <p>Sections</p>
+    <ul>
+      <li><a href="#about_me" style="font-size:xx-large;">About Me</a></li>
+      <li><a href="#likes">Likes</a></li>
+      <li><a href="#courses">Courses</a></li>
+    </ul>
+  </nav>
+
+  <section id="about_me">
+    <h1>About Me</h1>
+    <img src="https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/20070909/halo_3.jpg?quality=90&strip=all&crop=5.3311793214863%2C0%2C89.337641357027%2C100&w=750" alt="Halo 3 image">
+    <p>My name is David Mabry</p>
+    <p>My major is Computer Science</p>
+    <p>I am a Junior</p>
+    <p>The classes I'm taking this semester are <a href="#courses">down here</a></p>
+  </section>
+
+  <section id="likes">
+    <hr style="color: red;">
+    <h2>Likes</h2>
+    <p>I like: Video games, Dungeons and Dragons, and Steak. I also like to joke around a lot. My favorite game series is Halo.</p>
+    <p>Just as a funny note: the last character I used in D&D is this little 2'5 birb. He can throw anything up to 30 tons. Here's an image of him—he got a bit beat up over the sessions (he has a tail, it's just not in the image).</p>
+    <img src="https://i.imgur.com/GCVosWA.png" alt="D&D Bird Character">
+    <p></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ANdG2DGm0CQ?si=f7MzGKBc14-YT6ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+
+  <section id="courses">
+    <h2>Courses</h2>
+    <div class="container">
+      <div class="grid-1">
+        <h3>Internet Programming (CMPSC-3323-01)</h3>
+        <p>It's about general coding on the internet which includes server connection and hypertext documents. I like the professor; he is very chill.</p>
+        <p></p>
+      </div>
+
+      <div class="grid-2">
+        <h3>Operating Systems (CMPSC-3113-01)</h3>
+        <p>This course is primarily about how the internals of a computer work.</p>
+        <p></p>
+      </div>
+
+      <div class="grid-3">
+        <h3>Enduring Questions 4 (HNRS-2313-02)</h3>
+        <p>This course prepares you for your Honors Project/thesis.</p>
+        <p></p>
+      </div>
+
+      <div class="grid-4">
+        <h3>Database Design (CMPSC-4213-01)</h3>
+        <p>This course is about how databases are created, managed, and used.</p>
+        <p></p>
+      </div>
+    </div>
+  </section>
+
+  <div class="container2">
+    <div class="grid-5">
+      <section id="arithmatic">
+        <h2>Arithmetic</h2>
+        <p>Basic arithmetic</p>
+        <form name="arithmaticform">
+          <label>First number:</label>
+          <input type="number" name="firstnumber" placeholder="1"><br>
+
+          <label>Second number:</label>
+          <input type="number" name="secondnumber" placeholder="2"><br><br>
+
+          <legend>Select Operator</legend><br>
+          <input type="radio" id="addition" name="arithmaticoperator" value="Addition" checked>
+          <label for="addition">Addition</label><br>
+
+          <input type="radio" id="subtraction" name="arithmaticoperator" value="Subtraction">
+          <label for="subtraction">Subtraction</label><br>
+
+          <input type="radio" id="multiplication" name="arithmaticoperator" value="Multiplication">
+          <label for="multiplication">Multiplication</label><br>
+
+          <input type="radio" id="division" name="arithmaticoperator" value="Division">
+          <label for="division">Division</label><br><br>
+
+          <button type="button" onclick="performArithmatic()">Calculate</button>
+        </form>
+        <p></p>
+      </section>
+    </div>
+
+    <div class="grid-6">
+      <section id="factorial">
+        <h2>Factorial</h2>
+        <p>Finding the factorials of a number</p>
+        <form name="factorialform">
+          <label>Enter number:</label>
+          <input type="number" name="factorialnumber" placeholder="1"><br>
+          <button type="button" onclick="performfactorial()">Calculate</button>
+        </form>
+        <p></p>
+      </section>
+    </div>
+
+    <div class="grid-7">
+      <section id="fibonacciNumbers">
+        <h2>Fibonacci</h2>
+        <p>Calculate the Nth Fibonacci number</p>
+        <form name="fibonacciform">
+          <label>Enter number:</label>
+          <input type="number" name="fibonaccinumber" placeholder="1"><br>
+          <button type="button" onclick="performfibonacci()">Calculate</button>
+        </form>
+        <p></p>
+      </section>
+    </div>
+
+    <div class="grid-8">
+      <section id="range">
+        <h2>Find the Range</h2>
+        <p>Use this to find the range of three numbers</p>
+        <form name="rangeform">
+          <input type="number" name="num1" placeholder="1">
+          <input type="number" name="num2" placeholder="2">
+          <input type="number" name="num3" placeholder="3"><br>
+          <button type="button" onclick="performrange()">Calculate</button>
+        </form>
+        <p></p>
+      </section>
+    </div>
+
+    <div class="grid-9">
+      <section id="signupform">
+        <h2>Join Our Mailing List</h2>
+        <p>Put in your information here</p>
+        <form name="SignupForm">
+          <label>First Name</label>
+          <input type="text" name="firstname" placeholder="John"><br>
+
+          <label>Last Name</label>
+          <input type="text" name="lastname" placeholder="Doe"><br>
+
+          <label>Email</label>
+          <input type="email" name="email" placeholder="jdoe@me.com"><br>
+
+          <label>Zip Code</label>
+          <input type="number" name="zip" placeholder="1234"><br><br>
+
+          <button type="button" onclick="signup()">Sign Up</button>
+          <button type="reset">Reset</button>
+        </form>
+        <p></p>
+      </section>
+    </div>
+  </div>
+
+  <br><br><br><br><br>
+  <div id="list"></div>
+  <br><br>
+</body>
+</html>
